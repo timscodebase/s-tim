@@ -1,0 +1,28 @@
+{
+	"name": "s-tim",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "svelte-kit dev",
+		"build": "svelte-kit build",
+		"start": "svelte-kit start"
+	},
+	"devDependencies": {
+		"@fortawesome/free-brands-svg-icons": "^5.15.1",
+		"@fortawesome/free-solid-svg-icons": "^5.15.1",
+		"@sveltejs/adapter-node": "next",
+		"@sveltejs/kit": "next",
+		"@sveltejs/snowpack-config": "next",
+		"css-houdini-lines": "^1.0.4",
+		"css-paint-polyfill": "^2.0.0",
+		"lazysizes": "^5.3.0",
+		"svelte": "^3.29.0",
+		"svelte-awesome": "^2.3.0",
+		"svelte-forms-lib": "^1.3.0",
+		"yup": "^0.32.8"
+	},
+	"dependencies": {
+		"@sanity/client": "^2.1.4",
+		"@sanity/image-url": "^0.140.19",
+		"svelte-css-vars": "^0.0.1"
+	}
+}

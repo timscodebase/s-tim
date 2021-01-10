@@ -1,0 +1,1 @@
+{"version":3,"names":[],"sources":["Polygon.svelte"],"sourcesContent":["<polygon key=\"polygon-{id}\" {...data} />\n\n<script>\n  export let id = '';\n  export let data = {};\n</script>\n"],"mappings":";;;;OAGa,EAAE,GAAG,EAAE;OACP,IAAI;;;sDAJM,EAAE,KAAO,IAAI;;;"}

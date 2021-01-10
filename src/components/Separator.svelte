@@ -1,0 +1,56 @@
+<script>
+</script>
+
+<div class='separator'></div>
+
+<style>
+  .separator {
+    position: relative;
+    height: 10px;
+    border-top: 3px solid var(--black);
+    border-bottom: 3px solid var(--black);
+    background: rgb(255, 0, 0);
+    background: linear-gradient(
+      90deg,
+      rgba(255, 0, 0, 1) 0%,
+      rgba(252, 253, 29, 1) 20%,
+      rgba(26, 255, 0, 1) 40%,
+      rgba(44, 48, 253, 1) 60%,
+      rgba(253, 55, 252, 1) 80%,
+      rgba(252, 69, 69, 1) 100%
+    );
+    box-shadow: 0 0 0 1px var(--white);
+  }
+
+  .separator::before {
+    content: '';
+    position: absolute;
+    --lines-colors: var(--black);
+    --lines-widths: 4, 2, 3, 2;
+    --lines-gaps: 2, 4, 3, 1;
+    --lines-rotate: 135;
+
+    background-image: paint(lines);
+  }
+
+  /* .fullBleed {
+    margin: 0.75rem -2rem;
+  } */
+
+  /* .separator {
+    height: 21px;
+    background: rgb(255, 0, 0);
+    background: linear-gradient(
+      90deg,
+      rgba(255, 0, 0, 1) 0%,
+      rgba(252, 253, 29, 1) 20%,
+      rgba(26, 255, 0, 1) 40%,
+      rgba(44, 48, 253, 1) 60%,
+      rgba(253, 55, 252, 1) 80%,
+      rgba(252, 69, 69, 1) 100%
+    );
+    border-top: 7px solid var(--black);
+    border-bottom: 7px solid var(--black);
+    opacity: 0.6;
+  } */
+</style>

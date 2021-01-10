@@ -1,0 +1,1 @@
+{"version":3,"names":[],"sources":["Path.svelte"],"sourcesContent":["<path key=\"path-{id}\" {...data} />\n\n<script>\n  export let id = '';\n  export let data = {};\n</script>\n"],"mappings":";;;;;;;;;;;;;;;;;;;;;;0CAAiB,GAAE;;WAAO,GAAI;;;;;;;;;;;;;;;;;;;;;;;;;;;8EAAb,GAAE;mCAAO,GAAI;;;;;;;;;;;;OAGjB,EAAE,GAAG,EAAE;OACP,IAAI;;;;;;;;;;;;;;;;;"}

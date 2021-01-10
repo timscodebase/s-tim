@@ -1,0 +1,23 @@
+{
+  "imports": {
+    "@fortawesome/free-brands-svg-icons": "./@fortawesome/free-brands-svg-icons.js",
+    "@fortawesome/free-brands-svg-icons/faCodepen": "./@fortawesome/free-brands-svg-icons/faCodepen.js",
+    "@fortawesome/free-brands-svg-icons/faDev": "./@fortawesome/free-brands-svg-icons/faDev.js",
+    "@fortawesome/free-brands-svg-icons/faFacebook": "./@fortawesome/free-brands-svg-icons/faFacebook.js",
+    "@fortawesome/free-brands-svg-icons/faGithub": "./@fortawesome/free-brands-svg-icons/faGithub.js",
+    "@fortawesome/free-brands-svg-icons/faInstagram": "./@fortawesome/free-brands-svg-icons/faInstagram.js",
+    "@fortawesome/free-brands-svg-icons/faTwitter": "./@fortawesome/free-brands-svg-icons/faTwitter.js",
+    "@fortawesome/free-solid-svg-icons/faBrain": "./@fortawesome/free-solid-svg-icons/faBrain.js",
+    "@fortawesome/free-solid-svg-icons/faCameraRetro": "./@fortawesome/free-solid-svg-icons/faCameraRetro.js",
+    "@fortawesome/free-solid-svg-icons/faLaptopCode": "./@fortawesome/free-solid-svg-icons/faLaptopCode.js",
+    "@fortawesome/free-solid-svg-icons/faRss": "./@fortawesome/free-solid-svg-icons/faRss.js",
+    "@fortawesome/free-solid-svg-icons/faTools": "./@fortawesome/free-solid-svg-icons/faTools.js",
+    "@fortawesome/free-solid-svg-icons/faUserAstronaut": "./@fortawesome/free-solid-svg-icons/faUserAstronaut.js",
+    "lazysizes": "./lazysizes.js",
+    "svelte": "./svelte.js",
+    "svelte-css-vars": "./svelte-css-vars.js",
+    "svelte-forms-lib": "./svelte-forms-lib.js",
+    "svelte/internal": "./svelte/internal.js",
+    "svelte/store": "./svelte/store.js"
+  }
+}
